@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217,54%,11%);
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: hsl(0,0%,100%);
+    font-size: 1.5rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.wrapper {
+    background-color: hsl(216,50%,16%);
+    max-width: 300px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.equilibrium  {
+   display: flex;
+   justify-content: center;
+   margin: 1rem 0;
+}
+
+.equilibrium-desc h1{
+    font-weight: 600;
+}
+.equilibrium-desc p {
+    margin: 1rem 0;
+    font-weight: 100;
+}
+.equilibrium-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+}
+.equilibrium-icon span {
+    margin-left: 0.75rem;
+    font-size: 1.2rem;
+}
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+.left {
+    color: hsl(215,51%,70%);
+}
+.divider {
+    margin: 2rem 0 0 1rem;
+}
+.line {
+  border: none;
+  height: 1px;
+  background-color: hsl(215,32%,27%);
+}
+.equilibrium-creator {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.equilibrium-creator .creator {
+    font-weight: 600;
+}
+.equilibrium-creator span {
+    font-weight: 100;
+}
+.flex-creator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.flex-creator span {
+    margin-left: 1rem;
+}
+.equilibrium-desc h1:active {
+    color: hsl(178, 100%, 50%);
+}
+.flex-creator .creator:active {
+    color: hsl(178, 100%, 50%);
+}
